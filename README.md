@@ -9,7 +9,7 @@ In order to run simulation experiments please run the file:
 ```Simulation_run.py```
 
 ### HSI Application:
-First, download the HSI images in this [link](http://xlim-sic.labo.univ-poitiers.fr/datasets/ICONES-HSI) to the sub-folder  ```/ICONES_Data/ICONES-HSI```.
+First, download the HSI images at this [link](http://xlim-sic.labo.univ-poitiers.fr/datasets/ICONES-HSI) to the sub-folder  ```/ICONES_Data/ICONES-HSI```.
 
 In order to run HSI experiments please run the file:
 
