@@ -21,3 +21,6 @@ Alternating Diffusion code and manifold learning functions can be found at ```Ge
 
 #### Topological
 Persistence Homology code can be found at ```TDA```.
+
+
+![](pipeline.png)
