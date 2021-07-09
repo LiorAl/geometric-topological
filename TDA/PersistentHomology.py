@@ -5,11 +5,10 @@ from scipy.spatial.distance import cdist, pdist
 from tqdm import tqdm
 from itertools import permutations, combinations
 import matplotlib.pyplot as plt
-from AlternatingDiffusion import DiffusionDistance
 from collections import deque
 from time import time
 import ot
-from wasserstein import wasserstein_distance
+from TDA.wasserstein import wasserstein_distance
 from sklearn.neighbors import KDTree
 
 
@@ -18,10 +17,7 @@ def MatrixNorm(Kernel, norm_type, diff_dist=False, **kwargs):
         return Kernel
 
     # calculate diffusion distance matrix
-    if diff_dist:
-        mat = DiffusionDistance(Kernel)
-    else:
-        mat = Kernel
+    mat = Kernel
     return np.linalg.norm(mat, norm_type)
 
 
